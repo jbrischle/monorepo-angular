@@ -2,12 +2,14 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-    "app:start": "ng serve",
+    "app:start": "ng serve --open",
     "app:build": "ng build --configuration production app",
     "app:test": "ng test app --code-coverage",
+    "app:watch": "ng build --watch --configuration development app",
     "lib-smart:build": "ng build --configuration production lib-smart",
     "lib-smart:test": "ng test lib-smart --code-coverage",
-    "watch": "ng build --watch --configuration development"
+    "lib-smart:watch": "ng build --watch --configuration development lib-smart",
+    "lib-smart:serve": "ng serve --project=lib-smart"
   },
   "private": true,
   "dependencies": {
