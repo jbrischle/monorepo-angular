@@ -2,10 +2,10 @@
 
 ## Create a plain project
 ```ng new frontend --create-application false```
-## Create a application project within
-```ng g application app --routing --style=scss```
+## Create an application project within
+```ng generate application <app-name> --routing --style=scss```
 ## Create a library project within
-```ng g lib lib-smart```
+```ng generate lib <lib-name>```
 
 # Update scripts for the project
 1. Prefix the scripts with the project name

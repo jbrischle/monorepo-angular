@@ -10,7 +10,12 @@
     "lib-smart:dev:watch": "ng build --watch --configuration development lib-smart",
     "lib-smart:prod:build": "ng build --configuration production lib-smart",
     "lib-smart:prod:watch": "ng build --watch --configuration production lib-smart",
-    "lib-smart:test": "ng test lib-smart --code-coverage"
+    "lib-smart:test": "ng test lib-smart --code-coverage",
+    "lib-dumb:dev:build": "ng build --configuration development lib-dumb",
+    "lib-dumb:dev:watch": "ng build --watch --configuration development lib-dumb",
+    "lib-dumb:prod:build": "ng build --configuration production lib-dumb",
+    "lib-dumb:prod:watch": "ng build --watch --configuration production lib-dumb",
+    "lib-dumb:test": "ng test lib-dumb --code-coverage"
   },
   "private": true,
   "dependencies": {
