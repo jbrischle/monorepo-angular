@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "app:start": "ng serve --open",
-    "app:build": "ng build --configuration production app",
+    "app:dev:build": "ng build --configuration development app",
+    "app:prod:build": "ng build --configuration production app",
     "app:test": "ng test app --code-coverage",
-    "app:watch": "ng build --watch --configuration development app",
-    "lib-smart:build": "ng build --configuration production lib-smart",
-    "lib-smart:test": "ng test lib-smart --code-coverage",
-    "lib-smart:watch": "ng build --watch --configuration development lib-smart",
-    "lib-smart:serve": "ng serve --project=lib-smart"
+    "lib-smart:dev:build": "ng build --configuration development lib-smart",
+    "lib-smart:dev:watch": "ng build --watch --configuration development lib-smart",
+    "lib-smart:prod:build": "ng build --configuration production lib-smart",
+    "lib-smart:prod:watch": "ng build --watch --configuration production lib-smart",
+    "lib-smart:test": "ng test lib-smart --code-coverage"
   },
   "private": true,
   "dependencies": {

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LibSmartService } from './lib-smart.service';
 
 @Component({
-               selector:  'lib-smart',
+               selector:  'lib-lib-smart',
                template:  `
                               <div class="border">
                                   <h3>smart lib component</h3>
