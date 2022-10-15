@@ -10,11 +10,13 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
-      "lib-dumb": [
-        "dist/lib-dumb"
+      "lib-dumb/*": [
+        "dist/lib-dumb/*",
+        "projects/lib-dumb/*"
       ],
-      "lib-smart": [
-        "dist/lib-smart"
+      "lib-smart/*": [
+        "dist/lib-smart/*",
+        "projects/lib-smart/*"
       ]
     },
     "noFallthroughCasesInSwitch": true,
